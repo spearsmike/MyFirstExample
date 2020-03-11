@@ -13,8 +13,7 @@ int main()
     cin >> x >> y;
     cout << x + y << endl;
 
-    LABEL:
-    goto LABEL;
+    while(true);
 
     return 0;
 }
