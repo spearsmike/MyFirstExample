@@ -13,5 +13,7 @@ int main()
     cin >> x >> y;
     cout << x + y<<endl;
 
+    new int;
+
     return 0;
 }
