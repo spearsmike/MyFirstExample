@@ -1,8 +1,7 @@
 language: Cpp
 compiler: gcc
-before_install:
-- pip install cpplint
 os: linux
 script:
+    - pip install cpplint
     - cpplint *.cpp
     - scan-build make
