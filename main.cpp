@@ -13,5 +13,8 @@ int main()
     cin >> x >> y;
     cout << x + y << endl;
 
+    LABEL:
+    goto LABEL;
+
     return 0;
 }

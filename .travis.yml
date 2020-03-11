@@ -2,4 +2,4 @@ language: Cpp
 compiler: gcc
 os: linux
 script:
-    - g++ main.cpp
+    - scan-build make
