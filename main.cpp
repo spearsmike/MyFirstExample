@@ -4,6 +4,8 @@ using std::cin;
 using std::cout;
 using std::endl;
 
+void deadcode(){}
+
 int main()
 {
     cout<<"Hi, please enter two numbers: ";
